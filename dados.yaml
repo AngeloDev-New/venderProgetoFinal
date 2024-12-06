@@ -1,0 +1,18 @@
+name: controlador_orta
+description: Controle de temperatura e umidade via Bluetooth HC-05
+publish_to: 'none' # Defina como 'none' para projetos privados
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue: ^0.8.0  # A versão mais recente disponível
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
